@@ -13,6 +13,7 @@ const outDevices = require('./routes/api/outDevices');
 const inDevices = require('./routes/api/inDevices');
 const checkUsers = require('./routes/api/checkUsers');
 const getDevice = require('./routes/api/getDevice');
+const toRecords = require('./routes/api/toRecords');
 
 
 app.use('/api/allDevices', allDevices);
@@ -20,6 +21,7 @@ app.use('/api/outDevices', outDevices);
 app.use('/api/inDevices', inDevices);
 app.use('/api/checkUsers', checkUsers);
 app.use('/api/getDevice', getDevice);
+app.use('/api/toRecords', toRecords);
 
 //app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'));
 const port = process.env.PORT || 5000;
