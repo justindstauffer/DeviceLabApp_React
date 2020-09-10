@@ -6,7 +6,7 @@ export class Header extends Component {
     return (
       <div className="container-fluid bg-dark text-primary d-flex justify-content-between">
         <Link to="/admin"><button className="btn btn-dark text-dark">Admin</button></Link>
-        <Link to="/"><h1 className=" display-4 font-weight-bold">AT&T Device Lab</h1></Link> 
+        <Link to="/"><h1 className=" display-4 font-weight-bold">Device Lab</h1></Link> 
         <Link to="/admin"><button className="btn btn-dark text-dark">Admin</button></Link>
       </div>
     );
